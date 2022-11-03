@@ -1,0 +1,6 @@
+/* Custom list style */
+@counter-style lower-alpha-parentheses {
+    system: extends lower-alpha;
+    prefix: '(';
+    suffix: ')';
+}
