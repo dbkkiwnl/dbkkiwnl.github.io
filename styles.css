@@ -15,7 +15,9 @@ h1, h2 {
     padding: 1em;
 }
 
-.main-header {
+.main-header,
+.main-header > h1,
+.main-header > p {
     font-style: italic;
     text-align: center;
     display: flex;
