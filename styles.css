@@ -1,12 +1,20 @@
 /* Body style */
 body {
-    padding: 1em;
     font-family: 'Times New Roman', Times, serif;
 }
 
 /* Header styles */
 h1, h2 {
     font-weight: normal;
+}
+
+/* Main styles */
+.main {
+    padding: 1em;
+}
+
+.main-header {
+    font-style: italic;
 }
 
 /* Custom list style */
