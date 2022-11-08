@@ -1,3 +1,14 @@
+/* Body style */
+body {
+    padding: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header styles */
+h1, h2 {
+    font-weight: normal;
+}
+
 /* Custom list style */
 @counter-style lower-alpha-parentheses {
     system: extends lower-alpha;
