@@ -1,5 +1,7 @@
 /* Body style */
 body {
+    background-color: #1b1f12;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -15,6 +17,10 @@ h1, h2 {
 
 .main-header {
     font-style: italic;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
 }
 
 /* Custom list style */
