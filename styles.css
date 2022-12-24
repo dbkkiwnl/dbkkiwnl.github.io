@@ -3,6 +3,10 @@ html {
     font-size: calc(1em * 0.875);
 }
 
+body {
+    background: linear-gradient(#fcc, white);
+}
+
 /* Header styles */
 h1, h2 {
     font-weight: normal;
