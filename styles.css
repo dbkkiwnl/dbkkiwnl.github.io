@@ -1,9 +1,6 @@
 html {
     font-family: sans-serif;
     font-size: calc(1em * 0.875);
-}
-
-body {
     background: linear-gradient(#fcc, white);
 }
 
