@@ -8,8 +8,7 @@ body {
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background: -webkit-gradient(linear, top, bottom, from(#fcc), to(white));
+    background: liner-gradient(#fcc, white) fixed;
 }
 
 
