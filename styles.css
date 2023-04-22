@@ -9,7 +9,7 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background: linear-gradient(#fcc, white);
+    background: -webkit-gradient(linear, top, bottom, from(#fcc), to(white));
 }
 
 
