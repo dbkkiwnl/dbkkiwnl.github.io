@@ -25,16 +25,6 @@ main {
     margin-bottom: 7em;
 }
 
-.main-header,
-.main-header > h1,
-.main-header > p {
-    font-style: italic;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid white;
-}
-
 /* Custom list style */
 @counter-style lower-alpha-parentheses {
     system: extends lower-alpha;
