@@ -20,6 +20,9 @@ h1, h2 {
     	font-family: 'Georgia', 'Times New Roman', Times, serif;
 	margin-bottom: 0.6em;
 	padding-bottom: 0.15em;
+}
+
+h1 {
 	border-bottom: 1px solid #a2a9b1;
 }
 
