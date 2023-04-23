@@ -53,6 +53,9 @@ a {
 
 .styled-table tr {
 	border: 1px solid #a2a9b1;
+}
+
+.styled-table td {
 	padding: 0.5em;
 }
 
