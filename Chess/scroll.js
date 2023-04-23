@@ -1,3 +1,3 @@
-navigationHeight = document.querySelector('.topnav ul').offsetHeight;
+navigationHeight = document.querySelector('#topnav-links').offsetHeight;
 
 console.log(document.documentElement);
