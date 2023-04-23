@@ -37,6 +37,24 @@ a {
 	text-decoration: none;
 }
 
+.styled-table {
+	border: 1px solid #a2a9b1;
+	border-collapse: collapse;
+	width: 50%;
+}
+
+.styled-table thead {
+	font-weight: bold;
+}
+
+.styled-table tbody {
+	vertical-align: top;
+}
+
+.styled-table td {
+	border: 1px solid #a2a9b1;
+}
+
 /* Top horizontal navigation bar styles */
 .topnav ul {
   	list-style-type: none;
