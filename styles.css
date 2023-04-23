@@ -58,6 +58,6 @@ main {
 	background-color: #ddd;
 }
 
-.topnav li a.active {
+.topnav li a.active, .topnav li a:active {
 	background-color: #fcc;
 }
