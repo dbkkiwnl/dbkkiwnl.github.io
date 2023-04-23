@@ -33,6 +33,10 @@ main {
     	margin-bottom: 7em;
 }
 
+a {
+	text-decoration: none;
+}
+
 /* Top horizontal navigation bar styles */
 .topnav ul {
   	list-style-type: none;
