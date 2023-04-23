@@ -53,6 +53,7 @@ a {
 
 .styled-table td {
 	border: 1px solid #a2a9b1;
+	padding: 0.5em;
 }
 
 /* Top horizontal navigation bar styles */
