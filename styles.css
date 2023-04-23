@@ -1,6 +1,5 @@
 html {
     	font-family: sans-serif;
-    	font-size: calc(1em * 0.875);
     	height: 100%;
 	scroll-behavior: smooth;
 	scroll-padding-top: var(--scroll-padding, 65px)
