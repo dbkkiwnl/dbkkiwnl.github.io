@@ -91,3 +91,9 @@ a {
 .topnav li a.active, .topnav li a:active {
 	background-color: #fcc;
 }
+
+@media screen and (max-width: 600px) {
+	h1 {
+		text-align: center;
+	}
+}
