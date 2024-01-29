@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <title>Lesson 1: Limits</title>
+</head>
+<body>
+    <main>
+        <div class="title">
+            <h1>Limits of Functions</h1>
+        </div>
+
+        <p>Limits are the backbone of calculus, and calculus is called the mathematics of change. The study of limits is necessary in studying change in great detail.</p>
+
+        <div class="definition">
+            <b>Defintion.</b>  Consider a function \(f\) of a single variable \(x\). Consider a constant \(c\) which the variable \( x \)
+            will approach (\( c \) may or may not be in the domain of \( f \)). The limit, to be denoted by \( L \), is
+            the unique real value that \( f(x) \) will approach as \( x \) approaches \( c \). In symbols:
+
+            \[ \lim_{x \to c} f(x) = L \]
+
+            It is read as: "<b>the limit of \( f(x) \) as \( x \) approaches \( c \) is \( L \)</b>."
+        </div>
+
+        <p>We can examine limits by using a table of values. First, let us observe \( \lim_{x \to 2} (2x - 1) \). We can approach 3 on the number line two different ways, going up to 2, and going down to 2.</p> 
+        
+        <div style="text-align: center;">
+        <table class="tstyle" style="display: inline-block; margin: 0 1em;">
+            <caption>Values for \( x < 0\)</caption>
+            <thead>
+                <tr>
+                    <th>\( x \)</th>
+                    <th>\( f(x) \)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1.5</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>1.9</td>
+                    <td>2.8</td>
+                </tr>
+                <tr>
+                    <td>1.99</td>
+                    <td>2.98</td>
+                </tr>
+                <tr>
+                    <td>1.999</td>
+                    <td>2.998</td>
+                </tr>
+                <tr>
+                    <td colspan="2">\( \vdots \)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="tstyle" style="display: inline-block; margin: 0 1em;">
+            <caption>Values for \( x > 0\)</caption>
+            <thead>
+                <tr>
+                    <th>\( x \)</th>
+                    <th>\( f(x) \)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>3</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>2.5</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>2.1</td>
+                    <td>3.2</td>
+                </tr>
+                <tr>
+                    <td>2.01</td>
+                    <td>3.02</td>
+                </tr>
+                <tr>
+                    <td>2.001</td>
+                    <td>3.002</td>
+                </tr>
+                <tr>
+                    <td colspan="2">\( \vdots \)</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        
+        <p>As the values of \( x \) approach 2, the values of \( f(x) \) get closer to 3. This is always observed no matter what direction 2 is approached from. Thus, 
+
+            \[ \lim_{x \to 2} (2x - 1) = 3 \]
+        </p>
+
+        <p>However, we can also observe that by simply substituting the value of \( x \) with 2 directly, the limit of 3 can be directly obtained. Note that this method cannot always be used.</p>
+
+        <div class="example">
+            <b>Example 1.</b> Find the limit of the following: \[ \lim_{x \to 1} \frac{x^2 - 5x + 4}{x - 1} \]
+        </div>
+    </main>
+</body>
+</html>
