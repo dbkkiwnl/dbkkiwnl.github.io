@@ -5,4 +5,10 @@ html {
 
 .definition {
   padding: 1em;
+  border: 1px solid gray;
+}
+
+.definition::before {
+  content: "Definition.";
+  font-weight: bold;
 }
