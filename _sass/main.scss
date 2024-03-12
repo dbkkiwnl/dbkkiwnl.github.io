@@ -3,12 +3,26 @@ html {
   margin: 0.2em;
 }
 
-.definition {
+body {
+  counter-reset: example;
+}
+
+.definition,
+.example {
   padding: 1em;
+  margin: 0.3em;
+  
   border: 1px solid gray;
 }
 
 .definition::before {
   content: "Definition.";
+  font-weight: bold;
+}
+
+.example::before {
+  counter-increment: example;
+  
+  content: "Example " counter(example) ". ";
   font-weight: bold;
 }
