@@ -41,14 +41,35 @@ title: The Definition of a Derivative
 </div>
 
 <div class="example">
-  Find the derivative of \(f(x)\) using the definition of the derivative.
-  $$v(x) = \sqrt{2x + 3}$$
+  Find the derivative of \(V(x)\) using the definition of the derivative.
+  $$V(x) = \sqrt{2x + 3}$$
 
   <div class="solution">
     First, place it in the definition of the derivative.
     $$\begin{align}
-    v'(x) &= \lim_{h \to 0} \frac{v(x + h) - v(x)}{h} \\
+    V'(x) &= \lim_{h \to 0} \frac{V(x + h) - V(x)}{h} \\
           &= \lim_{h \to 0} \frac{\sqrt{2(x + h) + 3} - \sqrt{2x + 3}}{h}
     \end{align}$$
+
+    In this case, when radicals are present in an equation, <i>rationalization</i> is used. To recall, rationalization is done by multiplying by its conjugate. In this case, the conjugate of $\sqrt{2(x + h) + 3} - \sqrt{2x + 3}$ is $\sqrt{2(x + h) + 3} + \sqrt{2x + 3}$. Thus,
+    $$\begin{align}
+    V'(x) &= \lim_{h \to 0} \frac{\sqrt{2(x + h) + 3} - \sqrt{2x + 3}}{h} \\
+          &= \lim_{h \to 0} \frac{\sqrt{2(x + h) + 3} - \sqrt{2x + 3}}{h} \left ( \frac{\sqrt{2(x + h) + 3} + \sqrt{2x + 3}} { \sqrt{2(x + h) + 3} + \sqrt{2x + 3} } \right ) \\
+          &= \lim_{h \to 0} \frac{2(x + h) + 3 - (2x + 3)}{h(\sqrt{2(x + h) + 3} + \sqrt{2x + 3})} \\
+          &= \lim_{h \to 0} \frac{2x + 2h + 3 - 2x - 3}{h(\sqrt{2(x + h) + 3} + \sqrt{2x + 3} )} \\
+          &= \lim_{h \to 0} \frac{2h}{h(\sqrt{2(x + h) + 3} + \sqrt{2x + 3} )} 
+    \end{align}$$
+
+    With this, factors of \(h\) remain on both the numerator and denominator which can be divided out. Afterwards, the limit is evaluated as usual.
+    $$\begin{align}
+    V'(x) &= \lim_{h \to 0} \frac{2}{\sqrt{2(x + h) + 3} + \sqrt{2x + 3}} \\
+          &= \frac{2}{\sqrt{2x + 3} + \sqrt{2x + 3}} \\
+          &= \frac{2}{2\sqrt{2x + 3}} \\
+          &= \frac{1}{\sqrt{2x + 3}}
+    \end{align}$$
+
+    Thus, the derivative of \(V(x)\) is,
+
+    $$V'(x) = \frac{1}{\sqrt{2x + 3}}$$
   </div>
 </div>
