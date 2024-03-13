@@ -26,8 +26,13 @@ title: The Definition of a Derivative
 
   <hr>
 
-    $$ f'(x) = \lim_{\Delta x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x} \tag{1} $$
-  </div>
+    
+  $$\begin{align}
+  f'(x) &= \lim_{\Delta x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x} \\
+        &= \lim_{\Delta x \to 0} \frac{2(x + \Delta x) - 2x}{\Delta x} \\
+        &= \lim_{\Delta x \to 0} \frac{2x + 2\Delta x - 2x}{\Delta x} \\
+        &= \lim_{\Delta x \to 0} \frac{2\Delta x}{\Delta x} \\
+        &= \lim_{\Delta x \to 0} 2\\
+  f'(x) &= 2
+  \end{align}$$
 </div>
-
-{% includes collapsible.html %}
