@@ -4,7 +4,7 @@ title: The Definition of a Derivative
 ---
 <h1>The Definition of a Derivative</h1>
 <div class="definition">
-  The derivative of a function \(f(x)\) is defined as: $$ f'(x) = \lim_{\Delta x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x} \tag{1} $$
+  The derivative of a function \(f(x)\) is defined as: $$ f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} \tag{1} $$
 </div>
 
 <p>
@@ -25,17 +25,30 @@ title: The Definition of a Derivative
   $$f(x) = 2x$$
 
   <div class="solution">
-  The function \(f(x)\) is plugged into the definition of the derivative. With some simple algebra,
-  $$\begin{align}
-  f'(x) &= \lim_{\Delta x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x} \\
-        &= \lim_{\Delta x \to 0} \frac{2(x + \Delta x) - 2x}{\Delta x} \\
-        &= \lim_{\Delta x \to 0} \frac{2x + 2\Delta x - 2x}{\Delta x} \\
-        &= \lim_{\Delta x \to 0} \frac{2\Delta x}{\Delta x} \\
-        &= \lim_{\Delta x \to 0} 2\\
-        &= 2
-  \end{align}$$
+    The function \(f(x)\) is plugged into the definition of the derivative. With some simple algebra,
+    $$\begin{align}
+    f'(x) &= \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} \\
+          &= \lim_{h \to 0} \frac{2(x + h) - 2x}{h} \\
+          &= \lim_{h \to 0} \frac{2x + 2h - 2x}{h} \\
+          &= \lim_{h \to 0} \frac{2h}{h} \\
+          &= \lim_{h \to 0} 2\\
+          &= 2
+    \end{align}$$
 
-  Therefore, the derivative is,
-  $$f'(x) = 2$$
+    Therefore, the derivative is,
+    $$f'(x) = 2$$
+  </div>
+</div>
+
+<div class="example">
+  Find the derivative of \(f(x)\) using the definition of the derivative.
+  $$v(x) = \sqrt{2x + 3}$$
+
+  <div class="solution">
+    First, place it in the definition of the derivative.
+    $$\begin{align}
+    v'(x) &= \lim_{h \to 0} \frac{v(x + h) - v(x)}{h} \\
+          &= \lim_{h \to 0} \frac{\sqrt{2(x + h) + 3} - \sqrt{2x + 3}}{h}
+    \end{align}$$
   </div>
 </div>
