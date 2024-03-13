@@ -7,31 +7,6 @@ body {
   counter-reset: example;
 }
 
-button {
-  all: unset;
-}
-
-.collapsible {
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-style: italic;
-  margin-top: 0.5em;
-}
-
-.collapsible:after {
-  content: '\002B';
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2212";
-}
-
 .definition,
 .example {
   padding: 1em;
@@ -41,7 +16,7 @@ button {
 }
 
 .definition::before {
-  content: "Definition.";
+  content: "Definition. ";
   font-weight: bold;
 }
 
@@ -52,9 +27,7 @@ button {
   font-weight: bold;
 }
 
-.solution {
-  padding: 0 0.5em;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
+.solution::before {
+  content: "Solution. ";
+  font-style: italic;
 }
