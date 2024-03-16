@@ -31,3 +31,17 @@ body {
   content: "Solution. ";
   font-style: italic;
 }
+
+/* Button classes */
+.collapsible {
+  all: unset;
+  cursor: pointer;
+  padding: .5em;
+  width: 100%;
+}
+
+.content {
+  padding: .5em;
+  display: none;
+  overflow: hidden;
+}
