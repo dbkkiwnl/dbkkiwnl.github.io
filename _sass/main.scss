@@ -44,6 +44,15 @@ figure {
   text-align: center;
 }
 
+/* Table styles */
+.clean-table {
+  border-collapse: collapse;
+}
+
+.clean-table > thead {
+  font-weight: bold;
+}
+
 /* Button classes */
 .collapsible {
   all: unset;
