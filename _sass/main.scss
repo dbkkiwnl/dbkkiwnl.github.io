@@ -8,6 +8,11 @@ body {
   text-align: justify;
 }
 
+figure {
+  margin: 0 20px;
+  text-align: center;
+}
+
 .definition,
 .example {
   padding: 1em;
@@ -31,6 +36,12 @@ body {
 .solution::before {
   content: "Solution. ";
   font-style: italic;
+}
+
+/* Displaying equations where MathJax either fails or is not necessary */
+
+.display-text {
+  text-align: center;
 }
 
 /* Button classes */
