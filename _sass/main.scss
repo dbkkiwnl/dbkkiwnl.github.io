@@ -38,8 +38,12 @@ figure {
   font-style: italic;
 }
 
-/* Displaying equations where MathJax either fails or is not necessary */
+/* General centering of div horizontally */
+.center {
+  margin: auto;
+}
 
+/* Displaying equations where MathJax either fails or is not necessary */
 .display-text {
   text-align: center;
 }
@@ -47,10 +51,20 @@ figure {
 /* Table styles */
 .clean-table {
   border-collapse: collapse;
-}
-
-.clean-table > thead {
-  font-weight: bold;
+  text-align: center;
+  
+  caption {
+    padding-bottom: 0.2em;
+  }
+  
+  th {
+    border-bottom: 1px solid black;
+    padding: 0.5em;
+  }
+  
+  td {
+    padding: 0.5em;
+  }
 }
 
 /* Button classes */
