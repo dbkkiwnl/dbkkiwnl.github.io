@@ -13,6 +13,20 @@ figure {
   text-align: center;
 }
 
+main {
+  background-image: linear-gradient(white, #ced0d2);
+  background-repeat: no-repeat;
+}
+
+/* Backstage styles */
+.work {
+  margin-bottom: 5em;
+}
+
+@media only screen and (min-width: 768px) {
+  .work {padding: 0 10em;}
+}
+
 .definition,
 .example {
   padding: 1em;
