@@ -22,6 +22,34 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Reddit Mono', monospace;
 }
 
+
+.lesson-title {
+  overflow: hidden;
+  text-align: center;
+}
+
+.lesson-title::before, .lesson-title::after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.lesson-title::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.lesson-title::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+
+
 /* Backstage styles */
 .work {
   margin-bottom: 5em;
