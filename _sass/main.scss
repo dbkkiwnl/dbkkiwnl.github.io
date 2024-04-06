@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (min-width: 768px) {
   .work {padding: 0 15em;}
-  .work {padding: 0.5em;}
+  .work-title {padding: 0.5em;}
 }
 
 .definition,
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Link classes */
 
-a:link {
+a:link, a:visited {
   color: black;
   text-decoration: underline #9dcdba 2px;
 }
