@@ -25,6 +25,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 5em;
 }
 
+.work-title {
+  margin: 0;
+  text-align: center;
+  box-shadow: 0 10px 10px lightgray;
+}
+
 @media only screen and (min-width: 768px) {
   .work {padding: 0 10em;}
 }
