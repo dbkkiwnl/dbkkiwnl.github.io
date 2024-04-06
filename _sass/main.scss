@@ -23,13 +23,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .work-title {
-  margin: 0;
+  background: #3c5043;
+  color: white;
+
+  padding: 0.1em;
+  margin-bottom: 3.5em;
   text-align: center;
-  box-shadow: 0 10px 10px lightgray;
+  box-shadow: 0 10px 1em lightgray;
+  border-radius: 1em;
 }
 
 @media only screen and (min-width: 768px) {
-  .work {padding: 0 10em;}
+  .work {padding: 0 15em;}
+  .work {padding: 0.5em;}
 }
 
 .definition,
@@ -98,4 +104,15 @@ h1, h2, h3, h4, h5, h6 {
   padding: .5em;
   display: none;
   overflow: hidden;
+}
+
+/* Link classes */
+
+a:link {
+  color: black;
+  text-decoration: underline #9dcdba 2px;
+}
+
+a:hover {
+  text-decoration: underline #3c5043 3px;
 }
