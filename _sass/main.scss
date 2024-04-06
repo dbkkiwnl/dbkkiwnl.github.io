@@ -101,6 +101,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Reddit Mono", monospace;
 }
 
+.solution {
+  margin-top: 1em;
+}
+
 .solution::before {
   margin-right: 1em;
   content: "Solution";
