@@ -2,7 +2,13 @@
 layout: default
 title: The Definition of a Derivative
 ---
-<h1>The Definition of a Derivative</h1>
+<h1 class="lesson-title">The Definition of a Derivative</h1>
+
+<div class="lesson-nav">
+  <div>Beginning</div>
+  <div><a href="/Basic-Calculus/Rules-of-Differentation">Rules of Differentiation →</a></div>
+</div>
+
 <div class="definition">
   The derivative of a function \(f(x)\) is defined as: $$ f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} \tag{1} $$
 </div>
@@ -33,8 +39,7 @@ title: The Definition of a Derivative
           &= 2
     \end{align}$$
 
-    Therefore, the derivative is,
-    $$f'(x) = 2$$
+    Therefore, the derivative <b>f'(x) = 2</b>.
     </div>
   </details>
 </div>
@@ -43,9 +48,9 @@ title: The Definition of a Derivative
   Find the derivative of \(V(x)\) using the definition of the derivative.
   $$V(x) = \sqrt{2x + 3}$$
 
-  <button type="button" class="collapsible">Show solution</button>
-  <div class="content">
-  <div class="solution">
+  <details>
+    <summary>Show solution</summary>
+    <div class="solution">
     First, place it in the definition of the derivative.
     $$\begin{align}
     V'(x) &= \lim_{h \to 0} \frac{V(x + h) - V(x)}{h} \\
@@ -72,6 +77,6 @@ title: The Definition of a Derivative
     Thus, the derivative of \(V(x)\) is,
 
     $$V'(x) = \frac{1}{\sqrt{2x + 3}}$$
-  </div>
-  </div>
+    </div>
+  </details>
 </div>

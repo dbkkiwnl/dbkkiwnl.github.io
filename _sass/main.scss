@@ -1,5 +1,6 @@
 :root {
   --primary-color: #3c5043;
+  --hprim-color: #9dcdba;
 }
 
 
@@ -22,6 +23,25 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Reddit Mono', monospace;
 }
 
+/* Link classes */
+a:link, a:visited {
+  color: black;
+  text-decoration: underline var(--hprim-color) 2px;
+}
+
+a:hover {
+  text-decoration: underline var(--primary-color) 3px;
+}
+
+/* Details and summary */
+summary {
+  text-decoration: underline var(--hprim-color) 2px;
+}
+
+summary:hover {
+  font-weight: bold;
+  text-decoration: underline var(--primary-color) 3px;
+}
 
 .lesson-title {
   overflow: hidden;
@@ -143,16 +163,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Link classes */
-
-a:link, a:visited {
-  color: black;
-  text-decoration: underline #9dcdba 2px;
-}
-
-a:hover {
-  text-decoration: underline var(--primary-color) 3px;
-}
 
 /* Lesson navigation */
 .lesson-nav {
