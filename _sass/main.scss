@@ -36,6 +36,7 @@ a:hover {
 /* Details and summary */
 summary {
   text-decoration: underline var(--hprim-color) 2px;
+  cursor: pointer;
 }
 
 summary:hover {
