@@ -9,24 +9,40 @@ title: Kinetics
   <div><a href="/General-Chemistry/Thermodynamics">Thermodynamics →</a></div>
 </div>
 
+<p><b>Chemical kinetics</b> studies the rate at which a chemical process occurs.</p>
+
+<h2>Factors Affecting Rate of Reaction</h2>
+<ol>
+  <li>Concentration</li>
+  <li>Surface area</li>
+  <li>Temperature</li>
+  <li>Energy of collisions</li>
+</ol>
+
 <h2>Reaction Rate</h2>
 <p>The speed of a chemical reaction, or its <b>rate</b>, is defined as:</p>
 
 $$\text{rate} = \frac{\Delta \text{concentration}}{\Delta \text{time}} \tag{1}$$
 
-<p>For a reaction in the form \(\ce{A + B -> C}\), the rate can be expressed as:</p>
+<p>In general, a reaction in the form \(\ce{aA + bB -> cC + dD}\), the rate can be expressed as:</p>
 
-$$\text{rate} = -\frac{\Delta [A]}{\Delta t} = -\frac{\Delta [B]}{\Delta t} = \frac{\Delta [C]}{\Delta t} \tag{2}$$
+$$\text{rate} = -\frac{1}{a}\frac{\Delta [A]}{\Delta t} = -\frac{1}{b}\frac{\Delta [B]}{\Delta t} = \frac{1}{c}\frac{\Delta [C]}{\Delta t} = \frac{1}{d}\frac{\Delta [D]}{\Delta t} \tag{2}$$
 
-<p>Observe that the signs for the reactants A and B are negative, while the product C is positive. For products and reactants with numerical coefficients other than 1, the reaction rate is expressed a little differently. For example,</p>
+<p>As the reactants decrease, the products increase. Observe that the signs for the reactants A and B are negative, while the products C and D are positive.</p>
 
-$$\ce{H2 (g) + I2 (g) -> 2HI (g)}$$
+<div class="example">
+  Express the rate in terms of changes for the entire chemical equation.
 
-<p>The rate of the equation above is:</p>
+  $$\ce{H2 (g) + I2 (g) -> 2HI (g)}$$
+  <details>
+    <summary>Show solution</summary>
+    <div class="solution">
+      <p>The rate of the equation above is:</p>
 
-$$\text{rate} = -\frac{\Delta \ce{[H2]}}{\Delta t} = -\frac{\Delta \ce{[I2]}}{\Delta t} = \frac{\Delta \ce{[HI]}}{2 \Delta t}$$
-
-<p>For HI's numerical coefficient 2, it is expressed in its reciprocal form 1/2. This is how numerical coefficients are written in reaction rate.</p>
+      $$\text{rate} = -\frac{\Delta \ce{[H2]}}{\Delta t} = -\frac{\Delta \ce{[I2]}}{\Delta t} = \frac{\Delta \ce{[HI]}}{2 \Delta t}$$
+    </div>
+  </details>
+</div>
 
 <div class="example">
   Hydrogen gas has a nonpolluting combustion product (water vapor). It is used as a fuel aboard the space shuttle and in earthbound cars with prototype engines.
@@ -34,7 +50,7 @@ $$\text{rate} = -\frac{\Delta \ce{[H2]}}{\Delta t} = -\frac{\Delta \ce{[I2]}}{\D
   $$\ce{2H2 (g) + O2 (g) -> 2H2O (g)}$$
 
   (a) Express the rate in terms of changes in [H<sub>2</sub>], [O<sub>2</sub>], [H<sub>2</sub>O] with time.
-
+  <br>
   (b) When [O<sub>2</sub>] is decreasing at 0.23 mol/L⋅s, at what rate is [H<sub>2</sub>O] increasing?
 
   <details>
@@ -43,6 +59,20 @@ $$\text{rate} = -\frac{\Delta \ce{[H2]}}{\Delta t} = -\frac{\Delta \ce{[I2]}}{\D
       (a) Referring to Equation 1,
 
       $$\text{rate} = -\frac{\Delta \ce{[H2]}}{2 \Delta t} = -\frac{\Delta \ce{[O2]}}{\Delta t} = \frac{\Delta \ce{[H2O]}}{2 \Delta t}$$
+      <br>
+      (b) Since the rates of the chemical equation are all equal to each other,
+
+      $$\text{rate} = -\frac{\Delta \ce{[O2]}}{\Delta t} = \frac{\Delta \ce{[H2O]}}{2 \Delta t}$$
+
+      The value 0.23 mol/L⋅s can then be substituted.
+
+      $$\begin{align*}
+      \frac{\Delta \ce{[H2O]}}{2 \Delta t} &= -\frac{\Delta \ce{[O2]}}{\Delta t} \\
+      \frac{1}{2} \frac{\Delta \ce{[H2O]}}{\Delta t} &= \pu{-0.23 mol/L*s} \\
+      \frac{\Delta \ce{[H2O]}}{\Delta t} &= \pu{-0.46 mol/L*s} \\
+      \end{align*}$$
+
+      Therefore, [H<sub>2</sub>O] is increasing at a rate of 
     </div>
   </details>
 </div>
