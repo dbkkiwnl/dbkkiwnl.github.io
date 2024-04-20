@@ -35,6 +35,7 @@ a:hover {
 
 /* Details and summary */
 summary {
+  margin-top: 1em;
   text-decoration: underline var(--hprim-color) 2px;
   cursor: pointer;
 }
