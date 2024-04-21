@@ -133,7 +133,7 @@ $$\text{rate} = k\ce{[A]}^m\ce{[B]}^n \cdots$$
     <thead>
       <tr>
         <th>Experiment</th>
-        <th>Initial rate (mol/Ls)</th>
+        <th>Initial rate (mol/L⋅s)</th>
         <th>Initial [A] (mol/L)</th>
         <th>Initial [B] (mol/L)</th>
       </tr>
@@ -168,7 +168,31 @@ $$\text{rate} = k\ce{[A]}^m\ce{[B]}^n \cdots$$
   <details>
     <summary>Show solution</summary>
     <div class="solution">
-      
+      <b><i>Finding order m with respect to A.</i></b> To find <i>m</i>, two experiments need to be compared. In this case, experiment 1 and 2 can be compared.
+
+      $$\frac{\text{rate 1}}{\text{rate 2}} = \frac{k\ce{[A]^m_1[B]^n_1}}{k\ce{[A]^m_2[B]^n_2}} = \frac{\ce{[A]^m_1}}{\ce{[A]^m_2}} = \left(\frac{\ce{[A]_1}}{\ce{[A]_2}}\right)^m$$
+
+      Substituting the actual values,
+
+      $$\begin(align*)
+      \frac{\pu{1.75 \times 10^{-3} mol/L*s}}{\pu{3.50 \times 10^{-3} mol/L*s}} &= \left(\frac{\pu{2.50 \times 10^{-2} mol/L}}{\pu{5.00 \times 10^{-2} mol/L}}\right)^m \\
+      0.5 &= 0.5^m \\
+      m &= 1
+      \end{align*}$$
+
+      <b><i>Finding order n with respect to B.</i></b> Similarly, experiments 1 and 3 can be used.
+
+      $$\frac{\text{rate 1}}{\text{rate 3}} &= \frac{k\ce{[A]^m_1[B]^n_1}}{k\ce{[A]^m_3[B]^n_3}} = \frac{\ce{[A]^n_1}}{\ce{[A]^n_3}} = \left(\frac{\ce{[A]_1}}{\ce{[A]_3}}\right)^n$$
+
+      Substitute.
+
+      $$\begin{align*}
+      \frac{\pu{1.75 \times 10^{-3} mol/L*s}}{\pu{3.50 \times 10^{-3} mol/L*s}} &= \left(\frac{\pu{3.00 \times 10^{-2} mol/L}}{\pu{6.00 \times 10^{-2} mol/L}}\right)^n \\
+      0.5 &= 0.5^n \\
+      n &= 1
+      \end{align*}$$
+
+      Thus, the reaction orders are <b>first order with respect to A</b> and <b>first order with respect to B</b>.
     </div>
   </details>
 </div>
