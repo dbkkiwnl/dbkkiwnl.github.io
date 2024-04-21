@@ -197,6 +197,57 @@ $$\text{rate} = k\ce{[A]}^m\ce{[B]}^n \cdots$$
   </details>
 </div>
 
+<h2>Integrated Rate Laws</h2>
+<table class="clean-table center">
+  <caption><b>Table 2.</b> Integrated rate laws</caption>
+<thead>
+  <tr>
+    <th>Reaction order</th>
+    <th>Rate law</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>zero order</td>
+    <td class="a-left">\(\ce{[A]_t - [A]_0}=-kt\)</td>
+  </tr>
+  <tr>
+    <td>first order</td>
+    <td class="a-left">\(\ce{ln\frac{[A]_0}{[A]_t}}=kt\)</td>
+  </tr>
+  <tr>
+    <td>second order</td>
+    <td class="a-left">\(\ce{\frac{1}{[A]_t} - \frac{1}{[A]_0}}=kt\)</td>
+  </tr>
+</tbody>
+</table>
+
+<div class="example">
+  At 1000&deg;C, cyclobutane (C<sub>4</sub>H<sub>8</sub>)decomposes in a first-order reaction, with the very high rate constant of 87 s<sup>-1</sup>, to two molecules of ethylene. The initial cyclobutane concentration is 2.00 <i>M</i>. What is the concentration after 0.010 seconds?
+  <details>
+    <summary>Show solution</summary>
+    <div class="solution">
+      Since it is a first order reaction, the following formula is used.
+
+      $$\ce{ln\frac{[C_4H_8]_0}{[C_4H_8]_t}}=kt$$
+
+      Knowing that \(\pu{k = 87 s-1}\), \(\pu{t = 0.010 s}\), \(\ce{[C_4H_8]_0 = 2.00M}\), substitute.
+
+      $$\begin{align*}
+      \ln \frac{\pu{2.00mol/L}}{\ce{[C_4H_8]_t}} &= (\pu{87s-1})(\pu{0.0010s}) \\
+      \ln \frac{\pu{2.00mol/L}}{\ce{[C_4H_8]_t}} &= (0.87) \\
+      \cancel{e}^{\cancel{\ln} \frac{\pu{2.00mol/L}}{\ce{[C_4H_8]_t}}} &= e^{0.87} \\
+      \frac{\pu{2.00mol/L}}{\ce{[C_4H_8]_t}} &= e^{0.87} \\
+      \ce{[C_4H_8]_t} &= \frac{\pu{2.00mol/L}}{e^{0.87}} \\
+      \ce{[C_4H_8]_t}&= \pu{0.858 mol/L}
+      \end{align*}$$
+
+      Thus, the concentration of the cyclobutane after 0.010 seconds is <b>0.858 mol/L</b>.
+    </div>
+  </details>
+</div>
+
+
 <hr>
 
 <p><a href="/General-Chemistry/Home">← Return to General Chemistry</a></p>
