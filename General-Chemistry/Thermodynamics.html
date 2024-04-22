@@ -16,7 +16,7 @@ title: Thermodynamics
 <h2>The Second Law of Thermodynamics</h2>
 <p>The disorder or entropy (<i>S</i>) of the universe is spontaneous. For any real spontaneous process,</p>
 
-$$S_\text{universe} = S_\text{system} + S_\text{surroundings} \geq 0 \tag{1}$$
+$$S_\text{universe} = S_\text{system} + S_\text{surroundings} > 0 \tag{1}$$
 
 <div class="example">
   Determine which has higher entropy.
@@ -72,6 +72,7 @@ $$\pu{\Delta S^o_{rxn} = \sum mS^o_{products} - \sum nS^o_{reactants}} \tag{2}$$
 <h2>Entropy Changes in Surroundings</h2>
 
 $$\Delta S_{\text{universe}} = \Delta S_{\text{system}} + \Delta S_{\text{surroundings}} \tag{3}$$
+
 <p>In an exothermic change, heat released by the system is absorbed by the surroundings. More heat increases the freedom of motion of the particles and makes the
 energy more dispersed, so the entropy of the surroundings increases.</p>
 
@@ -121,6 +122,32 @@ $$\Delta S_{\text{surr}} = -\frac{\Delta H_{\text{sys}}}{T} \tag{4}$$
   </details>
 </div>
 
+<h2>Entropy Change at Equilibrium State</h2>
+<p>When the process reaches equilibrium, there is no further net change, &Delta;<i>S</i><sub>univ</sub> = 0, because any entropy change in the system is balanced by an opposite entropy change in the surroundings.</p>
+
+$$\Delta S_{\text{univ}} = \Delta S_{\text{sys}} + \Delta S_{\text{surr}} = 0 \\ \Delta S_{\text{sys}} = -\Delta S_{\text{surr}}$$
+
+<h2>Entropy, Free Energy, and Work</h2>
+<p>The <b>Gibbs free energy</b>, or simply <b>free energy</b> (<i>G</i>), combines the system’s enthalpy and entropy:</p>
+
+$$G = H - TS \tag{5}$$
+
+<h3>Deriving the Gibbs Equation</h3>
+<p>From the second law,</p>
+
+$$\Delta S_{\text{univ}} = \Delta S_{\text{sys}} + \Delta S_{\text{surr}}$$
+
+<p>Substituting &Delta;<i>S</i><sub>surr</sub>, gives a relationship that solely relies on the system.</p>
+
+$$\Delta S_{\text{univ}} = \Delta S_{\text{sys}} - \frac{\Delta H_{\text{sys}}}{T}$$
+
+<p>Multiplying both sides by -<i>T</i> gives:</p>
+
+$$-T\Delta S_{\text{univ}} = \Delta H_{\text{sys}} - T\Delta S_{\text{sys}}$$
+
+<p>We have now derived Gibbs equation.</p>
+
+$$\Delta G_{\text{sys}} = \Delta H_{\text{sys}} - T\Delta S_{\text{sys}} \tag{6}$$
 <hr>
 
 <p><a href="/General-Chemistry/Home">← Return to General Chemistry</a></p>
