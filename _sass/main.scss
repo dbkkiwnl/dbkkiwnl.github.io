@@ -11,6 +11,7 @@ html {
 
 body {
   counter-reset: example;
+  counter-reset: theorem;
   text-align: justify;
 }
 
@@ -98,7 +99,8 @@ summary:hover {
 }
 
 .definition,
-.example {
+.example,
+.theorem {
   padding: 1em;
   margin: 0.3em;
   
@@ -108,6 +110,16 @@ summary:hover {
 .definition::before {
   margin-right: 1em;
   content: "Definition";
+  color: var(--primary-color);
+  font-weight: bold;
+  font-family: "Reddit Mono", monospace;
+}
+
+.theorem::before {
+  counter-increment: theorem;
+
+  margin-right: 1em;
+  content: "Theorem";
   color: var(--primary-color);
   font-weight: bold;
   font-family: "Reddit Mono", monospace;
