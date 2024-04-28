@@ -10,9 +10,7 @@ html {
 }
 
 body {
-  counter-reset: example;
-  counter-reset: theorem;
-  counter-reset: remark;
+  counter-reset: example 0 theorem 0 remark 0 figure 0;
   text-align: justify;
 }
 
@@ -141,6 +139,15 @@ summary:hover {
   
   margin-right: 1em;
   content: "Example " counter(example);
+  color: var(--primary-color);
+  font-weight: bold;
+  font-family: "Reddit Mono", monospace;
+}
+
+figcaption::before {
+  counter-increment: figure;
+
+  content: "Figure " counter(figure)". ";
   color: var(--primary-color);
   font-weight: bold;
   font-family: "Reddit Mono", monospace;
