@@ -243,4 +243,17 @@ figcaption::before {
 /* Footer styling */
 footer {
   background-color: #f1f1f1;
+  padding: 1em;
+}
+
+footer::before {
+  content: "WISTERIA'S END";
+  color: gray;
+  font-family: "Reddit Mono", monospace;
+  font-weight: bold;
+  font-size: small;
+}
+
+footer p {
+  margin: 0;
 }
