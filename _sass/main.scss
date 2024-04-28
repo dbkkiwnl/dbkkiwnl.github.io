@@ -219,9 +219,6 @@ figcaption::before {
   overflow: hidden;
   background-color: lavender;
   padding: 1em .5em;
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
 }
 
 .header a {
