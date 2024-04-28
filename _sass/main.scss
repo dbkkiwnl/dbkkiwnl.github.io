@@ -9,8 +9,12 @@ html {
   margin: 0;
 }
 
-main {
+body {
   counter-reset: example 0 theorem 0 remark 0 figure 0;
+  margin: 0;
+}
+
+main {
   margin: 0.2em;
 }
 
