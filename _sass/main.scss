@@ -260,6 +260,11 @@ footer p {
   margin: 0;
 }
 
-.font-monospace {
+.subject {
   font-family: 'Reddit Mono', monospace; 
+  margin: 0.5em;
+}
+
+.subject a:link, a:visited {
+  color: gray;
 }
