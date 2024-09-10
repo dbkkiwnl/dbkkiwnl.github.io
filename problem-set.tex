@@ -1,0 +1,66 @@
+\documentclass{article}
+\usepackage{graphicx}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{parskip}
+\usepackage{siunitx}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{textcase}
+\usepackage{setspace}
+\usepackage{cancel}
+\usepackage{wrapfig}
+\usepackage{enumitem}
+\usepackage{ifthen}
+\usepackage{stackengine}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{mhchem}
+\usepackage{enumitem}
+
+\newcounter{problem}[section]
+
+\newenvironment{problem}[1][]{
+    \refstepcounter{problem}
+    \par\medskip
+    \noindent\textbf{Problem \theproblem #1.}\quad
+}{
+    \par\medskip
+}
+
+\title{Problem Set}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{problem}
+    A system receives \SI{425}{J} of heat from and delivers \SI{425}{J} of work to its surroundings. What is the change in internal energy of the system in J?
+
+    \textit{Solution.} Change in internal energy $\Delta E$ is expressed as $q + w$.
+
+    Given:
+    \begin{itemize}
+        \item $q = \SI{425}{J}$ (absorbed)
+        \item $w = \SI{-425}{J}$ (delivered to surroundings)
+    \end{itemize}
+    \begin{align*}
+        \Delta E &= q + w \\
+                 &= \SI{425}{J} + \SI{-425}{J} \\
+                 &= \SI{425}{J} - \SI{425}{J} \\
+                 &= \SI{0}{J}
+    \end{align*}    
+
+    Thus, the system's change in internal energy $\Delta E$ is \SI{0}{J}.
+    \qed
+\end{problem}
+
+\end{document}
