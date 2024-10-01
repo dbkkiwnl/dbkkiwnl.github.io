@@ -7,6 +7,12 @@ html {
 
 /* Header styling */
 header {
+
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  padding: 1em;
+  position: sticky;
+  top: 0;
+  
   h1 {
     margin: 0;
   }
