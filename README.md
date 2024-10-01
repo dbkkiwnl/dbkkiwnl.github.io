@@ -1,1 +1,1 @@
-# dbkkiwnl.github.io
+[dbkkiwnl.github.io]
