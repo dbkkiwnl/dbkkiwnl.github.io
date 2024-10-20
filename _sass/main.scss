@@ -4,26 +4,3 @@
 html {
   font-family: "Inter", Helvetica, Arial, sans-serif;
 }
-
-/* Header styling */
-header {
-
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-  padding: 1em;
-  position: sticky;
-  top: 0;
-  
-  h1 {
-    margin: 0;
-  }
-
-  span {
-    font-style: italic;
-  }
-}
-
-
-body {
-  background-color: #121212;
-  color: rgba(255, 255, 255, 0.87);
-}
